@@ -3,7 +3,11 @@ import React, { Component } from 'react';
 class Footer extends Component {
     
     state = {
-        name: 'Luke'
+        name: ''
+    }
+
+    componentDidMount() {
+        this.setState({name: 'MyName'});
     }
 
     changed = evt => {
