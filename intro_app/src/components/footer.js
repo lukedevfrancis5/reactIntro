@@ -2,8 +2,14 @@ import React, { Component } from 'react';
 
 class Footer extends Component {
     
-    changed() {
-        console.log('something changed');
+    state = {
+        name: 'Luke'
+    }
+
+    changed = evt => {
+        this.setState({name: evt.target.value})
+        console.log(this.state.name);
+
     }
 
     render() {
