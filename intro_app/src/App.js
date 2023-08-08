@@ -8,9 +8,10 @@ import Footer from './components/footer';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header info='This is MY message'
+        myNumber= '6'/>
       <p>Main Content</p>
-      <Footer/>
+      <Footer trademark='page by Luke Francis'/>
     </div>
   );
 }
