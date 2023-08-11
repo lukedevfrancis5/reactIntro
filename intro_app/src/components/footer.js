@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+// my component
+
 class Footer extends Component {
     
     state = {
