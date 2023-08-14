@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 // my component
+// another comment for the footer
 
 class Footer extends Component {
     
